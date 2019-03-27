@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_gray_gradient_background"
+    android:orientation="vertical"
+    tools:context="dverybest.com.nigeria.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#09ffffff"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/images"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvSelectCat"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Select Category:" />
+
+    <Spinner
+        android:id="@+id/spCat"
+        android:background="@drawable/spinner_wh_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:backgroundTint="@color/colorPrimary"
+        android:layout_marginLeft="@dimen/spinner_margin_left"
+        android:entries="@array/theme_array"
+        android:layout_marginBottom="10dp"
+        android:spinnerMode="dropdown" />
+    <TextView
+        android:id="@+id/tvSelectTheme"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:text="Select Candidate:" />
+
+    <Spinner
+        android:id="@+id/spThemes"
+        android:backgroundTint="@color/colorPrimary"
+        android:background="@drawable/spinner_wh_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spinner_margin_left"
+        android:entries="@array/cat_array"
+        android:spinnerMode="dropdown" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Vote"
+        android:background="@color/colorPrimary"
+        android:layout_margin="30dp"
+        android:textColor="@color/colorAccent"/>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

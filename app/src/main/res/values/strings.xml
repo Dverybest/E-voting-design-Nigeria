@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Election NG</string>
+    <string-array name="theme_array">
+
+        <item>None Selected</item>
+
+        <item>Presidential</item>
+        <item>Gubernatorial</item>
+
+    </string-array>
+    <string-array name="cat_array">
+
+        <item>None Selected</item>
+
+        <item>PDP</item>
+        <item>APC</item>
+        <item>YPP</item>
+
+    </string-array>
+    <string name="title_activity_login">LoginActivity</string>
+
+</resources>
+
+
